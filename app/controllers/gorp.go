@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"bitbucket.org/evard/evardbugs/app/models"
 	_ "github.com/lib/pq"
+	"github.com/mindoktor/mdbugs/app/models"
 	"github.com/ottob/go-semver/semver"
 	"github.com/ottob/gorp"
+	"github.com/revel/modules/db/app"
 	"github.com/revel/revel"
-	"github.com/revel/revel/modules/db/app"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"flag"
 	"reflect"
 	"github.com/revel/revel"
-	_ "bitbucket.org/evard/evardbugs/app"
-	controllers "bitbucket.org/evard/evardbugs/app/controllers"
+	_ "github.com/mindoktor/mdbugs/app"
+	controllers "github.com/mindoktor/mdbugs/app/controllers"
 	_ "github.com/lib/pq"
 	controllers0 "github.com/revel/revel/modules/static/app/controllers"
 )

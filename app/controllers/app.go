@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"bitbucket.org/evard/evardbugs/app/models"
-	"bitbucket.org/evard/evardbugs/app/routes"
+	"github.com/mindoktor/mdbugs/app/models"
+	"github.com/mindoktor/mdbugs/app/routes"
 	"github.com/revel/revel"
 )
 
