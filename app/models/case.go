@@ -7,3 +7,12 @@ type Case struct {
 	Message      string
 	GuideVersion *semver.Version
 }
+
+func NewCase(message string, version string) *Case {
+	v, err := semver.NewVersion(version)
+	if (err != nil) {
+		panic(err)
+	}
+	
+	return &Case{Message: message, GuideVersion : v}
+}
