@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/mindoktor/mdbugs/app/models"
-	"github.com/mindoktor/mdbugs/app/routes"
+	"github.com/ngoc-hien/mdbugs/app/routes"
 	"github.com/revel/revel"
 )
 
